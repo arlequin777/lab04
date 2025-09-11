@@ -1,5 +1,6 @@
 package com.example.lab04_git
 
+import android.app.AlertDialog
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -34,6 +35,15 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
+    val context = null
+    val builder: AlertDialog.Builder = AlertDialog.Builder(context)
+    builder
+        .setMessage("I am the message")
+        .setTitle("I am the title")
+
+    val dialog: AlertDialog = builder.create()
+    dialog.show()
+
     Text(
         text = "Hello $name!",
         modifier = modifier
