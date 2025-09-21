@@ -32,7 +32,6 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-//comentario
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     val context = null
@@ -65,6 +64,9 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         }
     }
 }
+
+//Modificacion "Jorge"
+
 @Composable
 fun CardMinimalExample() {
     Card() {
