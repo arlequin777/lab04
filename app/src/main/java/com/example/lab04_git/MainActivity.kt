@@ -32,7 +32,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
+//comentario
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     val context = null
